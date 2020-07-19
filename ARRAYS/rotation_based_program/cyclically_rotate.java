@@ -1,4 +1,4 @@
-package easyq;
+
  /*  BY-M.NAVEEN
   *  engineerscodes
   *  code -Program for array rotation

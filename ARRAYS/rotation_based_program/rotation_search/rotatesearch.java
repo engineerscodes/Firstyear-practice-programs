@@ -1,7 +1,7 @@
 /*  BY-M.NAVEEN
  *  engineerscodes
  *  code -Program for array rotation
- *  sr.code-Ar4
+ *  sr.code-Ar5
  *  moves  zeros to end of the array
  *  */
 import java .util.*;

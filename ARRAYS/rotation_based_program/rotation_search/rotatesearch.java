@@ -1,8 +1,8 @@
 /*  BY-M.NAVEEN
  *  engineerscodes
- *  code -Program for array rotation
+ *  code -Program for array rotation search
  *  sr.code-Ar5
- *  moves  zeros to end of the array
+ * 
  *  */
 import java .util.*;
 public class rotatesearch // class name

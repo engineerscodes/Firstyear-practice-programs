@@ -2,7 +2,7 @@
 /*  BY-M.NAVEEN
  *  engineerscodes
  *  code -Program for array rotation
- *  sr.code-Ar2 
+ *  sr.code-Ar3
  *  moves  zeros to end of the array
  *  */
 import java.util.*;

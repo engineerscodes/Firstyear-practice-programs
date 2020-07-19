@@ -164,18 +164,35 @@ public class doublelinked  //class name
 	    	   break;
 	    	case 7:System.out.println("Enter the position -"); 
 	    	      int pos=nav.nextInt();
-	    	      if(pos==1)
+	    	      if(pos==0)
 	    	      {    System.out.println("enter the data ->");
 	    	    	  insertbegin(nav.nextInt());
 	    	      }
 	    	      else 
 	    	      {   node temp=head;
+	    	          if(head==null)
+	    	          {
+	    	        	  System.out.println("Not possible list is empty");
+	    	        	  System.out.println("enter the data");
+	    	        	  insertbegin(nav.nextInt());
+	    	        	  
+	    	          }
+	    	          else if(temp.next==null)
+	    	          {   System.out.println("enter the data");
+	    	        	  insertend(nav.nextInt());
+	    	                   
+	    	           }
+	    	          else{
 	    	    	  for(int i=1;i<pos;i++) //to travers till the position or to get the nodes from the postion 
-	    	    	  {
+	    	    	  {  if(temp.next==null)
+	    	    	  {  System.out.println("Not poosible list size is less than position");
+	    	    		 break;
+	    	    	  }
 	    	    		temp=temp.next;
 	    	    	  }
 	    	    	  System.out.println("enter the data");
 	    	    	  insertpos(temp,nav.nextInt());
+	    	          }
 	    	      }
 	    	}
 	    }

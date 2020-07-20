@@ -53,8 +53,8 @@ public class intersectionlist                              //class name
 				if(x.data==tempy.data)   //if first--node is equal to second node 
 				{  
 					tempy=new node(x.data);  //creating new node 
-					tempy.next=head;    //tempy.mext=head; for first element head=null;
-					head=tempy;         //head= tempy
+					tempy.next=head;        //tempy.mext=head; for first element head=null and head keeps a track of intersection List;
+					head=tempy;            //head= tempy
 				}
 				tempy=tempy.next;
 			}

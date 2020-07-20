@@ -68,7 +68,7 @@ public class panlindromelist                                   //class name
 	public static void main(String arg[]) //main method
 	{   panlindromelist n=new panlindromelist(); //constructor of class panlindromelist
 		System.out.println("LINKED List");
-		/*This program is only for sorting a linkedlist 
+		/*This program is only for panlindromelist  a linkedlist 
 	     * So,I have directly given values in add fuction u can edit this my caliing add function and adding values at runtime 
 	     * For futhure information plz check r singllyLinkeList program and DoubllyLinkedlist code in Git
 	     * 

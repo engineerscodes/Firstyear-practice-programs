@@ -63,8 +63,13 @@ public class pairwiselist                                          //class name
 		}
 	}
 
-	public static void main(String naveen[])
+	public static void main(String naveen[])  //main method
 	{   pairwiselist n=new pairwiselist();
+	 /*This program is only for pair wise swaping a linkedlist 
+	     * So,I have directly given values in add fuction u can edit this my caliing add function and adding values at runtime 
+	     * For futhure information plz check r singllyLinkeList program and DoubllyLinkedlist code in Git
+	     * 
+	     * */
 		System.out.println("entering elements in list");
 		add(10);
 		add(20);

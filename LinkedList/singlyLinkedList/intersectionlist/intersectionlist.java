@@ -40,7 +40,7 @@ public class intersectionlist                              //class name
 		heady=new_node;
 	}
 	
-	public static void instersection()  //method to find common elements in array
+	public static void instersection()  //method to find common elements in List
 	{   
 		 node x=headx;  //temp node x,y are used for traversing and finding common nodes 
 		 node y =heady;

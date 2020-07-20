@@ -76,7 +76,7 @@ public class intersectionlist                              //class name
 	 
 	 public static void main(String[] args)  //main method
 		{   intersectionlist  n=new intersectionlist();
-		/*This program is only for sorting a linkedlist 
+		/*This program is only for intersection a linkedlist 
 	     * So,I have directly given values in add fuction u can edit this my caliing add function and adding values at runtime 
 	     * For futhure information plz check r singllyLinkeList program and DoubllyLinkedlist code in Git
 	     * 
